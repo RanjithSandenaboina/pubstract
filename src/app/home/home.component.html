@@ -1,0 +1,52 @@
+  
+<div *ngFor="let article of news.articles">
+    <div class="container" >
+        <div class="md-avatar" style="background-color:blue">
+        <div>
+        <div class="row col-md-12">
+          <div class="row col-md-6">
+               <table class="table" >
+                  <tbody >
+                    
+                    <tr  ng-hide="$index%2"
+                         class="ng-scope"
+                         aria-hidden="0"
+                         id="r1">
+                          <td>
+                             <img 
+                             class="md-avatar"
+                             src="{{article.urlToImage}}"
+                             id="img1"> 
+                             <img 
+                             class="md-avatar"
+                             src="{{article.urlToImage}}"
+                             id="img2">
+                             <img 
+                             class="md-avatar"
+                             src="{{article.urlToImage}}"
+                             id="img3"> 
+      
+                          </td>
+                    </tr>
+              
+                    <tr  ng-hide="$index%2"
+                    class="ng-scope"
+                    aria-hidden="0"
+                    id="r2">
+                      <td>
+                      <p style="margin-top:50px;">{{article.title}}</p>
+                      <p>For More : <a href="{{article.url}}">Click here</a></p>
+                      </td>
+              </tr>
+              
+                
+                  </tbody>
+                   </table>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+   
+    </div>

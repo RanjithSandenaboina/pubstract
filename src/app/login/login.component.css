@@ -1,0 +1,31 @@
+
+.navber{
+    height: 100px;
+    width: 100%;
+}
+.card{
+   border-radius: 3%;
+   width: 25rem;
+    height:40rem;
+  
+}
+
+#login{
+   background-color: rgb(176, 176, 250);
+}
+.card-img-top
+{
+   border-radius: 50%;
+   width: 50%;
+}
+.btn{
+    width: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+} 
+.i1
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qpJimXKqsfxx2J8TzG8z3JhcQ_EE2iIHrlT3Y486hQIq-OqvMw")
+}
